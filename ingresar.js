@@ -20,11 +20,11 @@ async function autentificacion(e){
         console.log( datos.usuario);
         console.log( datos.contraseña);
         if(datos.usuario === nameX && datos.contraseña === passwordX){
-            alert('Seccion Abierta');
+            alert('Sesion iniciada');
             window.location.replace("/html/inicio.html")
                 return
             }else{
-                console.log('hehe');
+                alert("Usuario incorrecto")
             }
             })
             }catch (error) {}} 

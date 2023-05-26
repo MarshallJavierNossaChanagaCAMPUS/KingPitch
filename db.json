@@ -7,6 +7,14 @@
       "usuario": "Donpiola",
       "contraseña": "1234",
       "id": 1
+    },
+    {
+      "nombres": "Jose",
+      "apellidos": "Jose",
+      "edad": "34",
+      "usuario": "Abejita",
+      "contraseña": "4321",
+      "id": 2
     }
   ]
 }

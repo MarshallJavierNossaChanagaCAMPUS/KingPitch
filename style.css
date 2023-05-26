@@ -84,8 +84,8 @@ body{
         #7f1694 20%,
         #5720bd 40%,
         #9715d3 60%,
-        #76189b 80%,
-        #680960 100%
+        #580675 80%,
+        #bd3ef0 100%
     );
     background-size: 200% 200%;
     animation: movement 5s linear infinite alternate;
@@ -127,4 +127,45 @@ body{
 }
 .usuario{
     background-color:rgb(3, 3, 59);
+}
+
+/* Seccion inicio */
+.tituloPadre{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tituloInicio{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.topics{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.hijoInicio{
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.hijoInicio section{
+    background-color: #5720bd;
+    width: 35%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.hijoInicio section img{
+    width: 80%;
+    height: 80%;
 }
