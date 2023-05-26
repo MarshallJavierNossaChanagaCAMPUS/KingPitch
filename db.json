@@ -1,0 +1,12 @@
+{
+  "usuarios": [
+    {
+      "nombres": "Marshall Javier",
+      "apellidos": "Nossa Chanaga",
+      "edad": "20",
+      "usuario": "Donpiola",
+      "contraseña": "1234",
+      "id": 1
+    }
+  ]
+}
